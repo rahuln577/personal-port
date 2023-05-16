@@ -1,0 +1,137 @@
+html{
+  font-size:100%;
+}
+body{
+  background-color:black;
+  background-image:url('./star.jpg');
+    background-size:cover;
+    color:white;
+    font-family:"raleway";
+  }
+/**Main page*/
+#resume{
+  border:1px solid white;
+  padding:0.5em 0.5em;
+  border-radius:0em;
+  transition:all 0.5s ease-out 0s;
+  color:white;
+  text-decoration:none;
+}
+#resume:hover{
+  background-color:white;
+  color:black;
+}
+
+#wel
+{
+  color:white;
+  font-weight:600;
+  font-size:1rem;
+  display:inline-block;
+  margin-bottom:0;
+  height:fill;
+  width:fill;
+  padding:0.2em 0.2em;
+  border-radius:0.3em;
+  background-image: linear-gradient(to right top, #1d1f20, #193356, #62347b, #bb0068, #eb121c);
+}
+.pc
+{
+  display:flex;
+  background-color:rgba(0, 0, 0, 0.305);
+  justify-content:space-around;
+  width:100%;
+  font-size:1.5rem;
+  color:white;
+  height:7vh;
+  position:fixed;
+  top:0.4em;
+  left:0;
+
+}
+.pc a{
+  color:white;
+  text-decoration:none;
+  margin-top:0.3em;
+}
+#root div h1{
+    position:relative;
+    margin-bottom:0;
+    font-size:2rem;
+}
+#main{
+  width:60%;
+}
+#type{
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  background-image: linear-gradient(to right top, #d1d3d1, #a8c6a8, #7fb87e, #52a953, #049921);
+  margin-top:0;
+
+}
+#helper{
+  font-size:1.4rem;
+  color:rgb(196, 194, 194);
+}
+#herosection{
+  margin-left:5em;
+  margin-top:13em;
+  display:flex;
+  flex-direction:row;
+  width:150%;
+}
+#herosection img{
+  width:40%;
+  animation:mo 3s infinite ;
+  animation-direction:alternate;
+}
+@keyframes mo{
+  0%{
+    transform:translateY(1em);
+  }
+  100%{
+    transform:translateY(-1em);
+  }
+}
+/**Main page end**/
+
+/* Skill Section */
+
+.skill-list img{
+width: 8em;
+height:8em;
+margin:2em;
+}
+.skill-list{
+  display:flex;
+  flex-direction:row;
+  animation:change 5s infinite;
+  animation-direction:alternate-reverse;
+}
+.skill-section {
+  background-color:rgba(0, 0, 0, 0.572);
+  overflow:hidden;
+  text-align:center;
+  width:90%;
+  height:20em;
+  margin:30% 40%;
+  padding-top:1em;
+  border-radius:2em;
+}
+.skill-section p{
+  font-size:1.3rem;
+}
+@keyframes change{
+  to{
+    transform:translateX(-80%);
+  }
+}
+/*Skill section end*/
+
+
+.pcard{
+  width:20px;
+  height:20px;
+}
+
+
